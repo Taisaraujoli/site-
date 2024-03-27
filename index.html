@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site Completo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #F7F7F7; /* Fundo cinza claro */
+            color: #333; /* Texto preto */
+        }
+
+        header {
+            background-color: #333;
+            color: #FFF;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #0077CC; /* Azul */
+            color: #FFF;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #FFF;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: #0077CC; /* Azul */
+            color: #FFF;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .button:hover {
+            background-color: #005A9C; /* Azul escuro */
+        }
+
+        .feature {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .feature img {
+            max-width: 100%;
+            margin-right: 20px;
+            border-radius: 5px;
+        }
+
+        .feature .text {
+            flex-grow: 1;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site Completo</h1>
+        <p>Bem-vindo! Este é um exemplo de um site completo.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="sobre">
+            <h2>Sobre</h2>
+            <p>Este site é um exemplo completo de como criar um site usando HTML e CSS. Ele inclui um cabeçalho com navegação, várias seções de conteúdo, e um rodapé. Sinta-se à vontade para adaptar este código para suas próprias necessidades.</p>
+            <a href="#" class="button">Saiba Mais</a>
+        </section>
+
+        <section id="servicos">
+            <h2>Serviços</h2>
+            <div class="feature">
+                <img src="https://via.placeholder.com/150" alt="Serviço 1">
+                <div class="text">
+                    <h3>Serviço 1</h3>
+                    <p>Descrição do serviço 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <img src="https://via.placeholder.com/150" alt="Serviço 2">
+                <div class="text">
+                    <h3>Serviço 2</h3>
+                    <p>Descrição do serviço 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <img src="https://via.placeholder.com/150" alt="Serviço 3">
+                <div class="text">
+                    <h3>Serviço 3</h3>
+                    <p>Descrição do serviço 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio">
+            <h2>Portfolio</h2>
+            <div class="feature">
+                <img src="https://via.placeholder.com/150" alt="Projeto 1">
+                <div class="text">
+                    <h3>Projeto 1</h3>
+                    <p>Descrição do projeto 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <img src="https://via.placeholder.com/150" alt="Projeto 2">
+                <div class="text">
+                    <h3>Projeto 2</h3>
+                    <p>Descrição do projeto 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <img src="https://via.placeholder.com/150" alt="Projeto 3">
+                <div class="text">
+                    <h3>Projeto 3</h3>
+                    <p>Descrição do projeto 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <form action="#" method="post">
+                <label for="nome">
